@@ -1,0 +1,13 @@
+# What are data types?
+- different sizes and values that can be stored in the variable
+- two types :
+  - Primitive
+    - byte - 1 byte (stores numbers from -128 to 127)
+    - short - 2 bytes
+    - int - 4 bytes (stores numbers 1, 2, 3, etc.)
+    - long - 8 bytes
+    - float - 4 bytes (stores decimal values like 3.14)
+    - double - 8 bytes
+    - char - 2 bytes (stores characters a, b, c, etc.)
+    - boolean - 1 byte (stores true or false)
+  - Non-primitive
