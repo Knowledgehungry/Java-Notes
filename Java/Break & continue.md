@@ -1,0 +1,29 @@
+# What is break? 
+- used to get out of a block of code
+
+# What is continue? 
+- used to continue a certain block of code
+
+  Example :
+  ```java
+  int i = 0;
+  while(true) { // true states that this loop will go on till infinity
+      if(i == 3) {
+          i++;
+          continue; // stops the after conde execution and again checks the condition
+      }  
+      System.out.println(i);
+      i++;
+      if(i == 5) {
+          break; // throws out of the while loop and stops execution
+      }
+  }
+
+
+  OUTPUT :
+  0
+  1
+  2
+  4
+  5
+  
